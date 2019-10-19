@@ -1,0 +1,1 @@
+def palindrome[A](list:List[A]):Boolean = list == list.reverse
