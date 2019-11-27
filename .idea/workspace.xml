@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="dcd0be87-f883-4a70-9a42-663ce4c3a069" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OCaml/cw_lista3.ml" beforeDir="false" afterPath="$PROJECT_DIR$/OCaml/cw_lista3.ml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PP_lista3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PP_lista3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCaml/cw_lista5.ml" beforeDir="false" afterPath="$PROJECT_DIR$/OCaml/cw_lista5.ml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PP_lista5/src/zad1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/PP_lista5/src/zad1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PP_lista5/src/zad2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/PP_lista5/src/zad2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PP_lista6/src/zad1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/PP_lista6/src/zad1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PP_lista6/src/zad2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/PP_lista6/src/zad2.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,26 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PP_lista5/src/zad1.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="n#ltake#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PP_lista5/src/zad2.scala">
+        <entry file="file://$PROJECT_DIR$/PP_lista6/src/zad1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="n#ltake#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="242">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -44,8 +32,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PP_lista5/src/zad3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PP_lista5/src/zad1.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="n#ltake#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PP_lista6/src/zad2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="n#swap#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,25 +79,24 @@
       <list>
         <option value="$PROJECT_DIR$/PP_lista3/src/Zad5.scala" />
         <option value="$USER_HOME$/prace/pdgm-mm/lista3/Zad1.scala" />
-        <option value="$PROJECT_DIR$/PP_lista5/src/zad2.scala" />
-        <option value="$PROJECT_DIR$/PP_lista5/src/zad3.scala" />
+        <option value="$PROJECT_DIR$/PP_lista6/src/zad2.scala" />
         <option value="$PROJECT_DIR$/PP_lista5/src/zad1.scala" />
+        <option value="$PROJECT_DIR$/PP_lista5/src/zad3.scala" />
+        <option value="$PROJECT_DIR$/PP_lista6/src/zad1.scala" />
+        <option value="$PROJECT_DIR$/PP_lista5/src/zad2.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="964" />
-    <option name="y" value="24" />
-    <option name="width" value="956" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="y" value="27" />
+    <option name="width" value="1167" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,18 +115,32 @@
               <item name="PP_lista5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PP_CW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PP_CW" type="462c0819:PsiDirectoryNode" />
+              <item name="PP_lista6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PP_CW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PP_CW" type="462c0819:PsiDirectoryNode" />
+              <item name="PP_lista6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PP_lista5/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/PP_lista5/src" />
     </key>
   </component>
@@ -145,9 +170,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="24" width="1928" height="1060" extended-state="6" />
+    <frame x="0" y="27" width="1167" height="1053" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15335463" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1587868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -162,7 +187,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.45873526" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.19323143" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -211,27 +236,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PP_lista5/src/zad3.scala">
+    <entry file="file://$PROJECT_DIR$/PP_lista6/src/zad2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="792">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="n#swap#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PP_lista5/src/zad2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="308">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="n#ltake#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PP_lista6/src/zad1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP_lista5/src/zad3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PP_lista5/src/zad1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="462">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="n#ltake#0" expanded="true" />
           </folding>

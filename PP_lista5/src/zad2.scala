@@ -7,7 +7,8 @@ def ltake [A](k: Int, llist: LazyList[A]):List[A] =
 
 def lfrom (k:Int):LazyList[Int] = k#::lfrom(k+1)
 
-def lfib():LazyList[Int] = {
+val lfib = { // val zapamiętuje wartość. Raz obliczone początkowe wartości ciągu
+  //zostaną obliczone, a następne będą doklejane. Def oblicza za każdym razem
   def lfibHelper(p: Int, s: Int): LazyList[Int] = {
     s #:: lfibHelper(s, s + p)
   }

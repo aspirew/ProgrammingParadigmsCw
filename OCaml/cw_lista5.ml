@@ -1,26 +1,22 @@
 type 'a llist = LNil | LCons of 'a * 'a llist Lazy.t;;
 
-let rec lfrom k = LCons (k, lazy (lfrom (k+1)));
-
-
 let lhd = function
 LNil -> failwith "lhd"
 | LCons (x, _) -> x
 ;;
-
 
 # let ltl = function
 LNil -> failwith "ltl"
 | LCons (_, xf) -> xf()
 ;;
 
+let rec lfrom k = LCons (k, lazy (lfrom (k+1)));
+
 let rec ltake = function
 (0, _) -> []
 | (_, LNil) -> []
-| (n, LCons(x,xf)) -> x::ltake(n-1, Lazy.force xf)
+| (n, LCons(x, lazy xf)) -> x::ltake(n-1, xf)
 ;;
-
-
 
 (* zad1 *)
 
@@ -29,7 +25,7 @@ let rec ltake = function
     else
     let rec helper (rpts, rest) = match (rpts, rest) with
       (_, LNil) -> LNil
-      | (0, LCons(_, tl)) -> helper(k, Lazy.force tl)
+      | (0, LCons(_, lazy tl)) -> helper(k, tl)
       | (_, LCons(hd, _)) -> LCons(hd, lazy (helper(rpts - 1, rest)))
     in helper (k, ll)
 
@@ -43,19 +39,13 @@ let rec ltake = function
 
 type 'a lBT = LEmpty | LNode of 'a * (unit -> 'a lBT) * (unit -> 'a lBT);;
 
-(* let rec (@$) ll1 ll2 =
-  match ll1 with
-    | LNil -> ll2
-    | LCons(x, lazy xf) -> LCons(x, lazy (xf @$ ll2))
-;;
-
-let rec lBreadth = function
-    LEmpty -> LNil
-    | LNode(n, left, right) -> LCons(n, lazy (lBreadth (left()) @$ lBreadth(right())));; *)
-
+(* type 'a llBT = LlEmpty | LlNode of 'a * 'a llBT Lazy.t * 'a llBT Lazy.t ;; *)
 
 let rec generateTree n =
   LNode(n, (function() -> generateTree(2*n)), (function() -> generateTree(2*n+1)));;
+
+(* let rec generateTree2 n =
+  LlNode(n, lazy (generateTree2(2*n)), lazy (generateTree2(2*n+1)));; *)
 
 
     let lBreadth lbt = 
@@ -64,4 +54,12 @@ let rec generateTree n =
           | LEmpty::t -> breadthHelp t
           | LNode(v, l, r)::t -> LCons(v, lazy (breadthHelp(t @ [l() ; r()])))
         in breadthHelp [lbt];;
+
+        (* let llBreadth lbt = 
+          let rec breadthHelp = function
+              [] -> LNil
+              | LlEmpty::t -> breadthHelp t
+              | LlNode(v, lazy l, lazy r)::t -> LCons(v, lazy (breadthHelp(t @ [l ; r])))
+            in breadthHelp [lbt];; *)
+          
       
