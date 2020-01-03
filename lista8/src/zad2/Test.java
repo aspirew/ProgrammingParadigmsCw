@@ -12,9 +12,10 @@ public class Test {
         zmienna = null;
     }
 
+
     public static void main(String[] args) {
         Test modyfikowalna = new Test();
-        final Test niemodyfikowalna = final new Test();
+        final Test niemodyfikowalna = new Test();
 
         argNiemodyfikowalny(modyfikowalna);
         System.out.println(modyfikowalna.zawartosc);
